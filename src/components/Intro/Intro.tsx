@@ -8,7 +8,7 @@ export function Intro() {
       <div>
         <img src="/FindYourWay1.svg" alt="RITA" />
       </div>
-      <div>
+      <div className={styles.description}>
         <h1 className={styles.title}>Ajudando você a cuidar da sua saúde &#10084;</h1>
 
         <p className={styles.text}>
