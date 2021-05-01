@@ -1,10 +1,13 @@
 import styles from './styles.module.scss'
-import { Intro } from '../Intro'
+import { BrowserRouter } from 'react-router-dom'
+import Routes from '../../routes'
 
 export function Body() {
   return (
     <body className={styles.bodyContainer}>
-      <Intro />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </body>
   )
 }

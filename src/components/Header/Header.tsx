@@ -1,3 +1,5 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './styles.module.scss'
 
 export function Header() {
@@ -7,7 +9,10 @@ export function Header() {
       <div>
         <button>Quem somos?</button>
         <button>Contato</button>
-        <button>Espaço dos fármacos</button>
+
+        <Link to="/Cadastro">
+          <button>Espaço dos fármacos</button>
+        </Link>
       </div>
     </header>
   )
