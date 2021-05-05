@@ -3,8 +3,8 @@ import { Intro } from '../Intro'
 
 export function Body() {
   return (
-    <body className={styles.bodyContainer}>
+    <div className={styles.bodyContainer}>
       <Intro />
-    </body>
+    </div>
   )
 }

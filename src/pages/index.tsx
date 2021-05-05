@@ -4,9 +4,10 @@ import { Body } from '../components/Body'
 
 export default function Home() {
   return (
-    <>
+    <body>
       <Header />
       <Body />
-    </>
+      {/* <Footer /> */}
+    </body>
   )
 }
