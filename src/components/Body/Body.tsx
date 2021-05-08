@@ -4,10 +4,10 @@ import { Header } from '../Header'
 
 export function Body() {
   return (
-    <body className={styles.bodyContainer}>
+    
+    <div className={styles.bodyContainer}>
       <Header />
-
       <Intro />
-    </body>
+    </div>
   )
 }
