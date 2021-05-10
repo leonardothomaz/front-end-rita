@@ -1,10 +1,12 @@
 import React from 'react'
-import { Body } from '../components/Body'
+import { FormCadastro } from '../components/FormCadastro'
+import { Header } from '../components/Header'
 
 export default function Cadastro() {
   return (
     <>
-      <Body />
+      <Header />
+      <FormCadastro />
     </>
   )
 }

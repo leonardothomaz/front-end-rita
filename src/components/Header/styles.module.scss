@@ -6,7 +6,6 @@
   justify-content: space-between;
   padding: 2rem 4rem;
   padding-left: 11rem;
-  margin-bottom: 3rem;
 
   button {
     padding: auto;
@@ -23,7 +22,17 @@
     letter-spacing: 0rem;
     text-align: left;
   }
+
+  button:hover {
+    border-bottom: 10px;
+    border-color: black;
+  }
+
   div {
     gap: 4rem;
+  }
+
+  img {
+    cursor: pointer;
   }
 }
